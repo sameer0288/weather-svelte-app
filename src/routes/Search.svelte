@@ -40,7 +40,7 @@
 			bind:value={search}
 			on:keydown={handleInput}
 			type="text"
-			placeholder="Enter city or zip code..."
+			placeholder="Enter your city..."
 		/>
 		<button on:click={handleClick} type="button">
 			<span class="material-icons">search</span>
