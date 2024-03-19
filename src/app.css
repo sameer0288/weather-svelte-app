@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	font-family: 'Inter', sans-serif;
+}
+
+:root {
+	--size-5: clamp(2.4883rem, 2.223rem + 1.3264vi, 3.8147rem);
+	--size-4: clamp(2.0736rem, 1.878rem + 0.9782vi, 3.0518rem);
+	--size-3: clamp(1.728rem, 1.5853rem + 0.7134vi, 2.4414rem);
+	--size-2: clamp(1.44rem, 1.3374rem + 0.5131vi, 1.9531rem);
+	--size-1: clamp(1.2rem, 1.1275rem + 0.3625vi, 1.5625rem);
+	--size-0: clamp(1rem, 0.95rem + 0.25vi, 1.25rem);
+	--size--2: clamp(0.6944rem, 0.6733rem + 0.1056vi, 0.8rem);
+	--size--1: clamp(0.8333rem, 0.8rem + 0.1667vi, 1rem);
+}
+
+
+h1 {
+	font-size: var(--size-2);
+	font-weight: bold;
+}
+
+h2 {
+	font-size: var(--size-1);
+	font-weight: bold;
+}
+
+h3 {
+	font-size: var(--size-0);
+	font-weight: 600;
+}
+
+p,span {
+	font-size: var(--size-0);
+	font-weight: 500;
+}
+
